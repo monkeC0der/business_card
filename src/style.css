@@ -1,0 +1,119 @@
+body {
+  background-color: #282828;
+}
+
+.card {
+  background-color:   #202020;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card > h1 {
+  color: white;
+}
+
+.cover_photo {
+  width: 100%;
+  object-fit: contain;
+}
+
+.name {
+  font-family: Roboto;
+  padding-top: 30px;
+  text-align: center;
+  margin:auto;
+}
+
+.occupation {
+  font-family: Roboto;
+  font-weight: 100;
+  color: #f2c138;
+  text-align: center;
+  margin: auto;
+}
+
+.email {
+  font-family: Arial;
+  font-weight: 50;
+  color: #87e898;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.info {
+  padding-bottom: 20px;
+}
+
+.button-group {
+  padding-top:10px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.button {
+  min-width: 115px;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5em 0.75em;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button--email {
+  border: 1px solid var(--clr-light-heading);
+  margin-right: 50px;
+}
+
+.button--linkedin {
+    color: var(--clr-light-heading);
+    background-color: #5093e2;
+    border: 1px solid #5093e2;
+    color:white;
+  }
+
+  .button:hover {
+    filter: brightness(85%);
+  }
+
+  .info--header {
+    font-family: Arial;
+    color:white;
+    margin-left: 30px;
+    margin-bottom: 5px;
+  }
+
+  .info--text {
+    font-family: Roboto;
+    color: white;
+    margin-left: 30px;
+    max-width: 350px;
+    font-weight: 100;
+    margin-top: 0px;
+    font-size:medium;
+    letter-spacing: 0.05em;
+  }
+
+.footer {
+  background-color: #141414;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  margin:auto;
+  justify-content: center;
+  display: flex;
+}
+
+.fa-canadian-maple-leaf {
+  color: #909090;
+  padding-right: 100px;
+}
+
+.fa-tractor {
+  color: #909090;
+}
